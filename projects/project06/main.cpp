@@ -8,6 +8,7 @@ Faktura bude mít metodu (funkci), která spočítá a vrátí celkovou cenu.
 #include <iostream>
 #include <string>
 
+//Deklarace tříd
 class Osoba
 {
     private:
@@ -49,6 +50,8 @@ class Faktura
         double SpocitejCelkovaCenu();
         ~Faktura();
 };
+
+//Implementace konstrukrotu, destruktoru a metod třídy Osoba, PolozkaFaktury a Faktura
 
 PolozkaFaktury::PolozkaFaktury(std::string n, int p, double c) {
     this->nazev = n;
